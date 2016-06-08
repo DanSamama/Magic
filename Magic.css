@@ -1,13 +1,40 @@
-/*.row.process{*/
-    /*text-align: center;*/
-    /*margin: 20px;*/
-    /*display: block;*/
-/*}*/
+.keyword{
+    font-family: 'Pacifico', cursive;
+    font-size: 130px;
+    margin-top: 3%;
+}
+.keyword, .text-upperButton{
+    text-align: center;
+    margin-top: 4%;
 
-/*.col-sm-4.txt{*/
-    /*color: darkslategray;*/
-    /*text-align: center;*/
-    /*padding-top: 20px;*/
+}
+.Intro{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 18%;
+    margin-top: 3%;
+    font-style: italic;
+}
+.textUs{
+
+}
+.textUs, .number{
+    display: inline-block;
+}
+.col-lg-2.number {
+    height: 46px;
+    text-align: center;
+    font-size: 30px;
+    color:#286090;
+    padding: 0px;
+}
+
+.row.send-button {
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 21px;
+}
+
 .row.process {
     text-align: center;
     background-color: whitesmoke;
