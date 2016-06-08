@@ -15,8 +15,13 @@
     margin-top: 3%;
     font-style: italic;
 }
-.textUs{
-
+button.btn.btn-primary.btn-lg.textUs {
+    background-color: #01A0C7;
+}
+.col-lg-1.SMS {
+    color: #1AB88A;
+    font-weight: bold;
+    font-size: 34px;
 }
 .textUs, .number{
     display: inline-block;
@@ -25,8 +30,12 @@
     height: 46px;
     text-align: center;
     font-size: 30px;
-    color:#286090;
+    color:#01A0C7;
     padding: 0px;
+}
+img.tchat {
+    height: 46px;
+    width: auto;
 }
 
 .row.send-button {
