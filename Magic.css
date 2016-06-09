@@ -23,6 +23,7 @@ nav.navbar.navbar-inverse.menu {
 button.btn.btn-primary.btn-lg.textUs {
     background-color: #01A0C7;
     border: 0px;
+    margin: 0px;
 }
 .col-lg-1.SMS {
     color: #1AB88A;
@@ -49,7 +50,7 @@ img.tchat {
 
 .row.send-button {
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 0%;
     font-size: 21px;
 }
 
