@@ -100,25 +100,23 @@ img.tchat {
 .col-lg-3.pricing.leftBox {
     border-radius: 25px;
     height: 630px;
-    width: 485px;
     background: #fff;
     box-sizing: border-box;
     text-align: center;
     padding-top: 41px;
     margin-top: 7%;
-    margin-left: 12%;
+
 }
 
 .col-lg-3.pricing.rightBox {
     border-radius: 25px;
     height: 630px;
-    width: 490px;
     background: #fff;
     box-sizing: border-box;
     text-align: center;
     padding-top: 41px;
     margin-top: 7%;
-    margin-left: -360px;
+
 }
 
 /*.title{*/
@@ -142,30 +140,37 @@ img.Relax {
     height: 85px;
     width: auto;
 }
-.col-lg-10.text-superman {
+.col-lg-8.text-superman {
     padding-top: 1%;
-    font-family: "Calibri";
+    font-family: Calibri light;
     font-weight: bold;
     font-size: 30px;
+
 }
 
-.col-lg-10.text-cellphone {
+.col-lg-8.text-cellphone {
     font-size: 30px;
     padding-top: 1%;
-    font-family: "Calibri";
+    font-family: Calibri light;
     font-weight: bold;
+
 }
 
-.col-lg-10.text-relax {
+.col-lg-8.text-relax {
     font-size: 30px;
     padding-top: 2%;
-    font-family: "Calibri";
+    font-family: Calibri light;
     font-weight: bold;
+
 }
 
 .row.cellphone-logo {
     padding-bottom: 3%;
     padding-top: 2%;
+}
+.How-it-works {
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .navbar-nav>li>a.nav-color,
