@@ -111,46 +111,41 @@ img.tchat {
 }
 
 img.Superman {
-    height: 73px;
+    height: 94px;
     width: auto;
 }
 img.Cellphone {
-    height: 55px;
+    height: 67px;
     width: auto;
-    margin-right: 6%;
 }
 img.Relax {
-    height: 97px;
+    height: 85px;
     width: auto;
-    margin-right: 3%;
-    margin-top: 2%;
 }
-.col-lg-8.text-superman {
-    height: 73px;
+.col-lg-10.text-superman {
+    padding-top: 1%;
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.col-lg-10.text-cellphone {
+    font-size: 30px;
     padding-top: 1%;
     font-family: "Calibri";
     font-weight: bold;
 }
-.logo-superman {
-    text-align: right;
-}
-.col-lg-8.text-cellphone {
-    height: 55px;
-    padding-top: 1%;
-    font-family: "Calibri";
-    font-weight: bold;
-}
-.col-lg-2.logo-cellphone {
-    text-align: right;
-}
-.col-lg-2.logo-relax {
-    text-align: right;
-}
-.col-lg-8.text-relax {
-    height: 97px;
+
+.col-lg-10.text-relax {
+    font-size: 30px;
     padding-top: 2%;
     font-family: "Calibri";
     font-weight: bold;
+}
+
+.row.cellphone-logo {
+    padding-bottom: 3%;
+    padding-top: 2%;
 }
 .navbar-nav>li>a.nav-color,
 .navbar-inverse .navbar-brand.nav-color{
