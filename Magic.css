@@ -46,7 +46,7 @@ img.tchat {
 
 .row.process {
     text-align: center;
-    background-color: dodgerblue;
+    background-color: #01A0C7;
     padding-top: 40px;
     height: 505px;
     margin-top: 5%;
@@ -83,7 +83,35 @@ img.tchat {
 .col-lg-4.butler {
     font-family: "Calibri";
     text-align: center;
-    padding-top: 18%;
+    padding-top: 15%;
+    font-size: 100px;
+    color: #1AB88A;
+}
+
+.col-lg-3.pricing {
+    border: black .5px solid;
+    height: 700px;
+}
+
+.title{
     font-size: 50px;
-    color: dodgerblue;
+    color: black;
+    text-align: center;
+    font-family: inherit;
+    padding-top: 15px;
+}
+
+.price {
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+}
+
+.details {
+    text-align: center;
+    font-size: 35px;
+}
+
+.btnCenter {
+    text-align: center;
 }
