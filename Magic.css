@@ -231,3 +231,14 @@ img.Relax {
     background-size: cover;
     background-position: center;
 }
+
+.video{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.videoTxt {
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+}
