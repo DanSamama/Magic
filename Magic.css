@@ -1,6 +1,11 @@
+nav.navbar.navbar-inverse.menu {
+    background-color: #1AB88A;
+    border: none;
+}
+
 .keyword{
     font-family: 'Pacifico', cursive;
-    font-size: 130px;
+    font-size: 200px;
     margin-top: 3%;
 }
 .keyword, .text-upperButton{
@@ -17,18 +22,22 @@
 }
 button.btn.btn-primary.btn-lg.textUs {
     background-color: #01A0C7;
+    border: 0px;
 }
 .col-lg-1.SMS {
     color: #1AB88A;
     font-weight: bold;
     font-size: 34px;
+    padding-left: 2%;
+    text-align: center;
+
 }
 .textUs, .number{
     display: inline-block;
 }
 .col-lg-2.number {
     height: 46px;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     color:#01A0C7;
     padding: 0px;
@@ -40,7 +49,7 @@ img.tchat {
 
 .row.send-button {
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 21px;
 }
 
