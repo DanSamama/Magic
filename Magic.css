@@ -225,6 +225,18 @@ img.Relax {
     margin-top: 30px;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #01A0C7;
+    border-color: #01A0C7;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #1AB88A;
+    border-color: #1AB88A;
+}
+
 /*.buy {*/
     /*height: 30px;*/
     /*width: auto;*/
@@ -241,6 +253,7 @@ img.Relax {
 .video{
     text-align: center;
     padding-top: 60px;
+    height: 750px;
 }
 
 .videoTxt {
@@ -249,3 +262,41 @@ img.Relax {
     font-style: italic;
     margin-bottom: 70px;
 }
+
+.faq {
+    text-align: center;
+    background-color: #1AB88A;
+    padding-top: 40px;
+    margin-top: 5%;
+}
+
+.faqTitle {
+    font-family: Calibri;
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 5px;
+
+
+}
+
+.faq ul{
+    margin: auto;
+    display: inline-block;
+}
+
+.faqTxt {
+    font-family: "Calibri light";
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    line-height: 100px;
+}
+
+
+
+.faqTxt a{
+    color: white;
+}
+
