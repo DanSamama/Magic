@@ -97,18 +97,38 @@ img.tchat {
     color: #1AB88A;
 }
 
-.col-lg-3.pricing {
-    border: black .5px solid;
-    height: 700px;
+.col-lg-3.pricing.leftBox {
+    border-radius: 25px;
+    height: 630px;
+    width: 485px;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 41px;
+    margin-top: 7%;
+    margin-left: 12%;
 }
 
-.title{
-    font-size: 50px;
-    color: black;
+.col-lg-3.pricing.rightBox {
+    border-radius: 25px;
+    height: 630px;
+    width: 490px;
+    background: #fff;
+    box-sizing: border-box;
     text-align: center;
-    font-family: inherit;
-    padding-top: 15px;
+    padding-top: 41px;
+    margin-top: 7%;
+    margin-left: -360px;
 }
+
+/*.title{*/
+    /*font-family: Arial;*/
+    /*font-size: 50px;*/
+    /*color: black;*/
+    /*text-align: center;*/
+    /*font-family: inherit;*/
+    /*padding-top: 15px;*/
+/*}*/
 
 img.Superman {
     height: 73px;
@@ -152,6 +172,7 @@ img.Relax {
     font-family: "Calibri";
     font-weight: bold;
 }
+
 .navbar-nav>li>a.nav-color,
 .navbar-inverse .navbar-brand.nav-color{
     color: white;
@@ -159,17 +180,58 @@ img.Relax {
 .navbar-inverse .navbar-nav>li>a.nav-color:focus, .navbar-inverse .navbar-nav>li>a.nav-color:hover{
     color: pink;
 }
-.price {
-    text-align: center;
-    font-size: 30px;
-    font-family: inherit;
+
+.title.time-use {
+    font-family: "Calibri light";
+    font-size: 80px;
 }
+
+.price {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.priceLength {
+    font-family: "Calibri Light";
+    font-size: 30px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+/*.details {*/
+    /*text-align: center;*/
+    /*font-size: 35px;*/
+/*}*/
 
 .details {
-    text-align: center;
+    font-family: "Calibri Light";
     font-size: 35px;
+    padding-top: 40px;
+    line-height: 65px;
+    padding-top: 25px;
 }
 
-.btnCenter {
-    text-align: center;
+.btn{
+    width: 200px;
+    display: inline-block;
+    padding: 9px 12px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/*.buy {*/
+    /*height: 30px;*/
+    /*width: auto;*/
+/*}*/
+
+.nycCover {
+    background-image: url("./images/hotel-pool.jpeg");
+    height: 957px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
 }
