@@ -1,3 +1,9 @@
+body{
+    overflow-x: hidden;
+}
+
+
+
 nav.navbar.navbar-inverse.menu {
     background-color: #1AB88A;
     border: none;
@@ -25,14 +31,18 @@ button.btn.btn-primary.btn-lg.textUs {
     border: 0px;
     margin: 0px;
 }
-.col-lg-1.SMS {
+.SMS {
     color: #1AB88A;
     font-weight: bold;
     font-size: 34px;
     padding-left: 2%;
+    padding-right: 2%;
     text-align: center;
-
+    display: inline-block;
+    vertical-align: middle;
 }
+
+
 .textUs, .number{
     display: inline-block;
 }
@@ -52,13 +62,14 @@ img.tchat {
     margin-top: 8%;
     margin-left: 0%;
     font-size: 21px;
+    text-align: center;
+    text-align: center;
 }
 
 .row.process {
     text-align: center;
     background-color: #01A0C7;
     padding-top: 40px;
-    height: 505px;
     margin-top: 5%;
 
 }
@@ -106,6 +117,7 @@ img.tchat {
     text-align: center;
     padding-top: 41px;
     margin-top: 7%;
+    margin-bottom: 7%;
 
 }
 
@@ -117,6 +129,7 @@ img.tchat {
     text-align: center;
     padding-top: 41px;
     margin-top: 7%;
+    margin-bottom: 7%;
 
 }
 
@@ -136,12 +149,13 @@ img.Superman {
 img.Cellphone {
     height: 67px;
     width: auto;
+
 }
 img.Relax {
     height: 85px;
     width: auto;
 }
-.col-lg-8.text-superman {
+.text-superman {
     padding-top: 1%;
     font-family: Calibri light;
     font-weight: bold;
@@ -149,7 +163,7 @@ img.Relax {
 
 }
 
-.col-lg-8.text-cellphone {
+.text-cellphone {
     font-size: 30px;
     padding-top: 1%;
     font-family: Calibri light;
@@ -157,7 +171,7 @@ img.Relax {
 
 }
 
-.col-lg-8.text-relax {
+.text-relax {
     font-size: 30px;
     padding-top: 2%;
     font-family: Calibri light;
@@ -244,7 +258,6 @@ img.Relax {
 
 .coverPhoto {
     background-image: url("./images/hotel-pool.jpeg");
-    height: 957px;
     width: auto;
     background-size: cover;
     background-position: center;
