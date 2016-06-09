@@ -76,26 +76,26 @@ img.tchat {
     font-size: 20px;
 }
 
-.iPhone {
-    height: 1000px;
-    padding-left: 1100px;
-    padding-top: 100px;
+/*.iPhone {*/
+    /*height: 1000px;*/
+    /*padding-left: 1100px;*/
+    /*padding-top: 100px;*/
 
-}
+/*}*/
 
-.iphone.txt {
-    font-size: 500px;
-    font-weight: bold;
+/*.iphone.txt {*/
+    /*font-size: 500px;*/
+    /*font-weight: bold;*/
 
-}
+/*}*/
 
-.col-lg-4.butler {
-    font-family: "Calibri";
-    text-align: center;
-    padding-top: 15%;
-    font-size: 100px;
-    color: #1AB88A;
-}
+/*.col-lg-4.butler {*/
+    /*font-family: "Calibri";*/
+    /*text-align: center;*/
+    /*padding-top: 15%;*/
+    /*font-size: 100px;*/
+    /*color: #1AB88A;*/
+/*}*/
 
 .col-lg-3.pricing.leftBox {
     border-radius: 25px;
@@ -207,15 +207,16 @@ img.Relax {
     font-size: 35px;
     padding-top: 40px;
     line-height: 65px;
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 .btn{
     width: 200px;
     display: inline-block;
-    padding: 9px 12px;
+    padding: 9px 15px;
     font-size: 28px;
     font-weight: 400;
+    margin-top: 30px;
 }
 
 /*.buy {*/
