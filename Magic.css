@@ -281,6 +281,8 @@ img.Relax {
     background-color: #1AB88A;
     padding-top: 40px;
     margin-top: 5%;
+    padding-bottom: 2%;
+
 }
 
 .faqTitle {
@@ -304,7 +306,7 @@ img.Relax {
     font-size: 40px;
     color: white;
     text-align: left;
-    line-height: 100px;
+    line-height: 70px;
 }
 
 
