@@ -1,20 +1,15 @@
 body{
     overflow-x: hidden;
 }
-/*nav.navbar.navbar-inverse.menu {*/
-    /*background-color: #1AB88A;*/
-    /*border: none;*/
-    /*!*position: fixed;*!*/
-    /*!*width:100%;*!*/
-/*}*/
-nav.navbar.navbar-inverse.navbar-fixed-top.menu{
-    background-color: #1AB88A;
-    border: none;
-}
 
-.navbar-brand.home, .navbar-inverse .navbar-nav>li>a{
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
     color:white;
     font-weight: bold;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top.menu{
+    background-color: #1AB88A;
+    border: none;
 }
 
 
@@ -32,7 +27,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top.menu{
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     margin-left: 18%;
-    margin-top: 6%;
+    margin-top: 10%;
     font-style: italic;
 }
 button.btn.btn-primary.btn-lg.textUs {
@@ -201,13 +196,13 @@ img.Relax {
     margin-top: 3%;
 }
 
-.navbar-nav>li>a.nav-color,
-.navbar-inverse .navbar-brand.nav-color{
-    color: white;
-}
-.navbar-inverse .navbar-nav>li>a.nav-color:focus, .navbar-inverse .navbar-nav>li>a.nav-color:hover{
-    color: pink;
-}
+/*.navbar-nav>li>a.nav-color,*/
+/*.navbar-inverse .navbar-brand.nav-color{*/
+    /*color: white;*/
+/*}*/
+/*.navbar-inverse .navbar-nav>li>a.nav-color:focus, .navbar-inverse .navbar-nav>li>a.nav-color:hover{*/
+    /*color: pink;*/
+/*}*/
 
 .title.time-use {
     font-family: "Calibri light";
@@ -294,9 +289,9 @@ img.Relax {
     text-align: center;
     background-color: #1AB88A;
     padding-top:2%;
-    margin-top: 6%;
+    margin-top: 4%;
     padding-bottom: 2%;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
 
 }
 
