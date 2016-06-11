@@ -1,12 +1,22 @@
 body{
     overflow-x: hidden;
 }
-nav.navbar.navbar-inverse.menu {
+/*nav.navbar.navbar-inverse.menu {*/
+    /*background-color: #1AB88A;*/
+    /*border: none;*/
+    /*!*position: fixed;*!*/
+    /*!*width:100%;*!*/
+/*}*/
+nav.navbar.navbar-inverse.navbar-fixed-top.menu{
     background-color: #1AB88A;
     border: none;
-    /*position: fixed;*/
-    /*width:100%;*/
 }
+
+.navbar-brand.home, .navbar-inverse .navbar-nav>li>a{
+    color:white;
+    font-weight: bold;
+}
+
 
 .keyword{
     font-family: 'Pacifico', cursive;
@@ -22,13 +32,17 @@ nav.navbar.navbar-inverse.menu {
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     margin-left: 18%;
-    margin-top: 3%;
+    margin-top: 6%;
     font-style: italic;
 }
 button.btn.btn-primary.btn-lg.textUs {
     background-color: #01A0C7;
     border: 0px;
     margin: 0px;
+}
+img.butler {
+    height: 76px;
+    width: auto;
 }
 .SMS {
     color: #1AB88A;
@@ -59,10 +73,10 @@ img.tchat {
 
 .row.send-button {
     margin-top: 8%;
-    margin-left: 0%;
+    margin-left: 6%;
     font-size: 21px;
     text-align: center;
-    text-align: center;
+    margin-bottom: 2%;
 }
 
 .row.process {
@@ -113,7 +127,7 @@ img.tchat {
     background: #fff;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-bottom: 4%;
     padding-bottom: 1%;
     margin-left: -1%;
@@ -125,7 +139,7 @@ img.tchat {
     background: #fff;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-bottom: 7%;
     margin-left: 2%;
     padding-bottom: 1%;
@@ -263,14 +277,17 @@ img.Relax {
 
 .video{
     text-align: center;
-    height: 750px;
+    height: 653px;
 }
-
+.our-video{
+    height: 400px;
+}
 .videoTxt {
     font-size: 70px;
     font-family: 'Pacifico', cursive;
     font-style: italic;
     margin-bottom:5%;
+    margin-top: 6%;
 }
 
 .faq {
