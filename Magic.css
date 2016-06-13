@@ -35,6 +35,11 @@ button.btn.btn-primary.btn-lg.textUs {
     border: 0px;
     margin: 0px;
 }
+
+button.btn.btn-info.btn-lg.textUs {
+    margin-top: 0px;
+    background-color: #01A0C7;
+}
 img.butler {
     height: 76px;
     width: auto;
@@ -68,7 +73,7 @@ img.tchat {
 
 .row.send-button {
     margin-top: 8%;
-    margin-left: 6%;
+    margin-left: 2%;
     font-size: 21px;
     text-align: center;
     margin-bottom: 2%;
